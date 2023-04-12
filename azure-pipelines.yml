@@ -1,15 +1,17 @@
-trigger:
-- main
-
-pool:
-  vmImage: ubuntu-latest
-
-
-stages :
-  - stage : A
-    jobs:
-      - job: Ajob
-        steps:
-          - script: echo "Ascrpti"
-          
-
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "isAlive": true,
+  "age": 25,
+  "address": {
+    "streetAddress": "21 2nd Street",
+    "city": "New York",
+    "state": "NY",
+    "postalCode": "10021-3100"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "212 555-1234"
+    },
+[...]
